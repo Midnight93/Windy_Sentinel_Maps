@@ -15,13 +15,19 @@ Key = 'Your API KEY'
 ├── LICENSE
 ├── media
 │   ├── doge.jpg
+│   ├── good_boy.jpg
+│   ├── ndvi_formula.gif
 │   ├── ndvi.png
+│   ├── ndwi_formula.gif
 │   ├── ndwi.png
 │   └── Sentinel-2-band-characteristics.png
 ├── README.md
 ├── sentinel
 │   ├── ndvi
-│   │   └── ndvi.js
+│   │   ├── eo_browser
+│   │   │   └── ndvi.js
+│   │   └── python
+│   │       └── NDVI.ipynb
 │   └── ndwi
 │       └── ndwi.js
 └── windy
@@ -31,6 +37,7 @@ Key = 'Your API KEY'
     └── Web Service
         ├── post_request.py
         └── text.json
+
 ```
 
 ## Usage
