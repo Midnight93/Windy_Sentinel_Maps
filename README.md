@@ -25,6 +25,8 @@ optional arguments:
 ```
 ## Sentinel-1, Sentinel-2, Sentinel-3
 
+<img src="https://64.media.tumblr.com/03ca2bdfdbb356a4f806be0f3c574f60/tumblr_n8zyut0fH01qa09t4o1_500.gif" width="400"  align="middle" >
+
 ### Sentinel-1
 
 The Sentinel-1 mission comprises a constellation of two polar-orbiting satellites, operating day and night performing C-band synthetic aperture radar imaging, enabling them to acquire imagery regardless of the weather.
@@ -36,8 +38,6 @@ Sentinel-1 is the first of the five missions that ESA is developing for the Cope
 ### Sentinel-2
 
 The Copernicus Sentinel-2 mission comprises a constellation of two polar-orbiting satellites placed in the same sun-synchronous orbit, phased at 180° to each other. It aims at monitoring variability in land surface conditions, and its wide swath width (290 km) and high revisit time (10 days at the equator with one satellite, and 5 days with 2 satellites under cloud-free conditions which results in 2-3 days at mid-latitudes) will support monitoring of Earth's surface changes.
-
-<img src="https://64.media.tumblr.com/03ca2bdfdbb356a4f806be0f3c574f60/tumblr_n8zyut0fH01qa09t4o1_500.gif" width="400"  align="middle" >
 
 ### Sentinel-3
 
