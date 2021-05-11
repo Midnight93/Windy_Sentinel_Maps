@@ -25,7 +25,7 @@ def main():
        parser.exit()
 
   args = parser.parse_args()
-  image_slicer.slice(image,slicer)
+  image_slicer.slice(args.image,args.slicer)
 
 if __name__ == '__main__':
    
