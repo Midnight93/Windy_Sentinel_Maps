@@ -117,6 +117,25 @@ The NDWI is used to monitor changes related to water content in water bodies. As
 #### Formula
 ![](media/ndwi_formula.gif)
 
+### DEM
+
+A digital elevation model (DEM) is a 3D computer graphics representation of elevation data to represent terrain, commonly of a planet (e.g. Earth), moon, or asteroid. A "global DEM" refers to a discrete global grid. DEMs are used often in geographic information systems, and are the most common basis for digitally produced relief maps.[6]
+
+![](media/dem.jpg)
+
+|        Region:       |Rome, Italy |
+|:--------------------:|-------------------------------------------------------------------|
+|       Latitude:      | 41°54'39"24 N                                                     |  
+|      Longitude:      | 12°28'54"48 E                                                 |  
+|    Lat/Long (dec):   | 41,9109; 12,4818                                              |  
+| Software used_:      | SentinelHub                                                       |  
+
+Authors of the scripts for Sentinel Hub
+
+* Peter Gabrovšek
+* Marko Repše
+* Monja Šebela
+
 ## References
 |   |  Name | Link  |
 |---|---|---|
@@ -125,3 +144,4 @@ The NDWI is used to monitor changes related to water content in water bodies. As
 |[3]| Sentinel-3  |https://sentinel.esa.int/web/sentinel/missions/sentinel-3  
 |[4]| NDVI  |Wikipedia, Normalized Difference Vegetation Index
 |[5]| NDWI  |Wikipedia, Normalized Difference Water Index
+|[6]| DEM   |Wikipedia, Digital elevation model
