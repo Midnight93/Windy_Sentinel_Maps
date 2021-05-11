@@ -23,7 +23,8 @@ Key = 'Your API KEY'
 │   ├── ndwi.png
 │   └── Sentinel-2-band-characteristics.png
 ├── opencv
-│   └── Dem_Analysis_OpenCV.ipynb
+│   ├── Dem_Analysis_OpenCV.ipynb
+│   └── slicer_for_dataset_preparation.py
 ├── README.md
 ├── sentinel
 │   ├── dem
@@ -43,7 +44,6 @@ Key = 'Your API KEY'
     └── Web Service
         ├── post_request.py
         └── text.json
-
 ```
 
 ## Usage
