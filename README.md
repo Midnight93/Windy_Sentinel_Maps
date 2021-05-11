@@ -66,7 +66,6 @@ optional arguments:
   --output OUTPUT    Define your output file name ex. output.json
 ```
 ### Large Image - Dataset Preparation for Annotations (Object Detection)
-
 ```bash
 python3 slicer_for_dataset_preparation.py
 ```
@@ -79,7 +78,10 @@ optional arguments:
   --image IMAGE    Your Image path
   --slicer SLICER  Your slicer value (es. 8x8 = value --> 64)
 ```
-
+#### Example
+```bash
+python3 slicer_for_dataset_preparation.py --image ./image.png --slicer 64
+```
 ## Sentinel-1, Sentinel-2, Sentinel-3
 
 <img src=media/doge.jpg width="400" align="middle" >
