@@ -25,7 +25,6 @@ optional arguments:
 ```
 ## Sentinel-1, Sentinel-2, Sentinel-3
 
-<img src="https://64.media.tumblr.com/03ca2bdfdbb356a4f806be0f3c574f60/tumblr_n8zyut0fH01qa09t4o1_500.gif" width="400"  align="middle" >
 
 ### Sentinel-1
 
@@ -36,6 +35,8 @@ Sentinel-1 will work in a pre-programmed operation mode to avoid conflicts and t
 Sentinel-1 is the first of the five missions that ESA is developing for the Copernicus initiative.[1]
 
 ### Sentinel-2
+
+<img src=image/doge.jpg width="400" align="middle" >
 
 #### Bands
 
