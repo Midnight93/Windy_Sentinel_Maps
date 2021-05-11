@@ -14,6 +14,7 @@ Key = 'Your API KEY'
 ```bash
 ├── LICENSE
 ├── media
+│   ├── dem.jpg
 │   ├── doge.jpg
 │   ├── good_boy.jpg
 │   ├── ndvi_formula.gif
@@ -23,6 +24,9 @@ Key = 'Your API KEY'
 │   └── Sentinel-2-band-characteristics.png
 ├── README.md
 ├── sentinel
+│   ├── dem
+│   │   └── eo_browser
+│   │       └── dem.js
 │   ├── ndvi
 │   │   ├── eo_browser
 │   │   │   └── ndvi.js
@@ -37,7 +41,6 @@ Key = 'Your API KEY'
     └── Web Service
         ├── post_request.py
         └── text.json
-
 ```
 
 ## Usage
