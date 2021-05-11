@@ -37,6 +37,11 @@ Sentinel-1 is the first of the five missions that ESA is developing for the Cope
 
 ### Sentinel-2
 
+#### Bands
+
+<img src=media/Sentinel-2-band-characteristics.png width="400"  align="middle" >
+
+
 The Copernicus Sentinel-2 mission comprises a constellation of two polar-orbiting satellites placed in the same sun-synchronous orbit, phased at 180° to each other. It aims at monitoring variability in land surface conditions, and its wide swath width (290 km) and high revisit time (10 days at the equator with one satellite, and 5 days with 2 satellites under cloud-free conditions which results in 2-3 days at mid-latitudes) will support monitoring of Earth's surface changes.
 
 ### Sentinel-3
@@ -47,16 +52,16 @@ The Sentinel-3 Mission Guide provides a high-level description of the mission ob
 
 ### NDVI
 
-<img src="https://bikeshbade.com.np/media/uploads/2020/05/07/ndvichart_eD4HXBw.png" width="400"  align="middle" >
+<img src=media/ndvi.bmp width="400"  align="middle" >
+
+#### Formula
 
 <img src="https://render.githubusercontent.com/render/math?math=(B8-B4)/(B8+B4)" align="middle">
 
-
 ### NDWI
 
-
-
-
+#### Formula 
+<img src="https://render.githubusercontent.com/render/math?math=(B3-B8)/(B3+B8)" align="middle">
 
 ## References
 |   |  Name | Link  |
