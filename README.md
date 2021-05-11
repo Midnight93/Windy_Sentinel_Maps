@@ -20,6 +20,10 @@ Key = 'Your API KEY'
 │   └── Sentinel-2-band-characteristics.png
 ├── README.md
 ├── sentinel
+│   ├── ndvi
+│   │   └── ndvi.js
+│   └── ndwi
+│       └── ndwi.js
 └── windy
     ├── Maps_html
     │   ├── index.html
@@ -77,6 +81,14 @@ The value range of the NDVI is -1 to 1. Negative values of NDVI (values approach
 
 <img src=media/ndvi.png width="400"  align="middle" >
 
+|        Region:       | Sicily |
+|:--------------------:|------------------------------------------------------------------|
+|       Latitude:      | 37° 30' 0.0000'' N                                               |  
+|      Longitude:      | 15° 5' 25.0008'' E                                               |  
+|    Lat/Long (dec):   | 37.5, 15.090278                                                  |  
+| Software used_:      | SNAP                                                             |  
+
+
 #### Formula
 
 <img src="https://render.githubusercontent.com/render/math?math=(B8-B4)/(B8+B4)" align="middle">
@@ -84,6 +96,14 @@ The value range of the NDVI is -1 to 1. Negative values of NDVI (values approach
 ### NDWI
 
 <img src=media/ndwi.png align="middle">
+
+|        Region:       | Adabozato, Isalo, Miandrivazo District, Menabe Region, Madagascar |
+|:--------------------:|-------------------------------------------------------------------|
+|       Latitude:      | 19° 43' 0" S                                                      |  
+|      Longitude:      | 45° 22' 0" E                                                      |  
+|    Lat/Long (dec):   | -19.71667,45.36667                                                |  
+| Köppen climate type: | Aw : Tropical savanna, wet                                        |  
+| Software used_:      | SNAP                                                             |  
 
 The NDWI is used to monitor changes related to water content in water bodies. As water bodies strongly absorb light in visible to infrared electromagnetic spectrum, NDWI uses green and near infrared bands to highlight water bodies. It is sensitive to built-up land and can result in over-estimation of water bodies. The index was proposed by McFeeters, 1996.
 
