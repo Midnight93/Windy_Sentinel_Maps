@@ -1,6 +1,7 @@
 import requests
 import json
 import argparse
+import sys
 
 parser = argparse.ArgumentParser()
 
@@ -15,20 +16,20 @@ parser.add_argument(
           "--lat",
           type=str,
           required=True,
-          help="Your API Keys",
+          help="Latitude",
       )
 
 parser.add_argument(
           "--lon",
           type=str,
           required=True,
-          help="Your API Keys",
+          help="Longitude",
       )
 parser.add_argument(
           "--model",
           type=str,
           required=True,
-          help="Your API Keys",
+          help="Reference model",
       )
 
 if len(sys.argv[1:]) == 0:
