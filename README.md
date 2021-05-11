@@ -1,4 +1,4 @@
-# Windy 
+# Windy
 
 <img src="https://www.gannett-cdn.com/presto/2020/11/19/PTCN/7d946ccb-7a6e-4456-9a56-416076fc7311-EnIZWibVkAAdWqP.jpg" width="400"  align="middle" >
 
@@ -8,6 +8,25 @@
 API_ENDPOINT = "https://api.windy.com/api/point-forecast/v2"
 
 Key = 'Your API KEY'
+```
+## Tree Project
+
+```bash
+├── LICENSE
+├── media
+│   ├── doge.jpg
+│   ├── ndvi.png
+│   ├── ndwi.png
+│   └── Sentinel-2-band-characteristics.png
+├── README.md
+├── sentinel
+└── windy
+    ├── Maps_html
+    │   ├── index.html
+    │   └── script.js
+    └── Web Service
+        ├── post_request.py
+        └── text.json
 ```
 
 ## Usage
@@ -68,7 +87,7 @@ The value range of the NDVI is -1 to 1. Negative values of NDVI (values approach
 
 The NDWI is used to monitor changes related to water content in water bodies. As water bodies strongly absorb light in visible to infrared electromagnetic spectrum, NDWI uses green and near infrared bands to highlight water bodies. It is sensitive to built-up land and can result in over-estimation of water bodies. The index was proposed by McFeeters, 1996.
 
-#### Formula 
+#### Formula
 <img src="https://render.githubusercontent.com/render/math?math=(B3-B8)/(B3+B8)" align="middle">
 
 ## References
@@ -78,5 +97,4 @@ The NDWI is used to monitor changes related to water content in water bodies. As
 |[2]| Sentinel-2  |https://sentinel.esa.int/web/sentinel/missions/sentinel-2
 |[3]| Sentinel-3  |https://sentinel.esa.int/web/sentinel/missions/sentinel-3  
 |[4]| NDVI  |Wikipedia, Normalized Difference Vegetation Index
-|[5]| NDWI  |Wikipedia, Normalized Difference Water Index 
-
+|[5]| NDWI  |Wikipedia, Normalized Difference Water Index
