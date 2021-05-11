@@ -59,6 +59,8 @@ The Sentinel-3 Mission Guide provides a high-level description of the mission ob
 
 
 ## References
-[1] Sentinel 1 - https://sentinel.esa.int/web/sentinel/missions/sentinel-1
-[2] Sentinel 2 - https://sentinel.esa.int/web/sentinel/missions/sentinel-2
-[3] Sentinel 3 - https://sentinel.esa.int/web/sentinel/missions/sentinel-3
+|   |  Name | Link  |
+|---|---|---|
+|[1]| Sentinel-1  |https://sentinel.esa.int/web/sentinel/missions/sentinel-1   
+|[2]| Sentinel-2  |https://sentinel.esa.int/web/sentinel/missions/sentinel-2
+|[3]| Sentinel-3  |https://sentinel.esa.int/web/sentinel/missions/sentinel-3  
