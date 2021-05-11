@@ -36,7 +36,7 @@ Sentinel-1 is the first of the five missions that ESA is developing for the Cope
 
 ### Sentinel-2
 
-<img src=image/doge.jpg width="400" align="middle" >
+<img src=media/doge.jpg width="400" align="middle" >
 
 #### Bands
 
@@ -53,7 +53,7 @@ The Sentinel-3 Mission Guide provides a high-level description of the mission ob
 
 ### NDVI
 
-<img src=media/ndvi.bmp width="400"  align="middle" >
+<img src=media/ndvi.png width="400"  align="middle" >
 
 #### Formula
 
