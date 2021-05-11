@@ -48,6 +48,12 @@ Key = 'Your API KEY'
 
 ## Usage
 
+### POST Request Windy Point Forecast API
+
+```bash
+python3 post_request.py
+```
+
 ```bash
 Usage: post_request.py [-h] --api_key API_KEY --lat LAT --lon LON --model MODEL [--output OUTPUT]
 
@@ -59,6 +65,21 @@ optional arguments:
   --model MODEL      Reference model
   --output OUTPUT    Define your output file name ex. output.json
 ```
+### Large Image - Dataset Preparation for Annotations (Object Detection)
+
+```bash
+python3 slicer_for_dataset_preparation.py
+```
+
+```bash
+Usage: slicer_for_dataset_preparation.py [-h] --image IMAGE --slicer SLICER
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --image IMAGE    Your Image path
+  --slicer SLICER  Your slicer value (es. 8x8 = value --> 64)
+```
+
 ## Sentinel-1, Sentinel-2, Sentinel-3
 
 <img src=media/doge.jpg width="400" align="middle" >
