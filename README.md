@@ -36,7 +36,7 @@ Sentinel-1 is the first of the five missions that ESA is developing for the Cope
 
 ### Sentinel-2
 
-<img src=https://steamuserimages-a.akamaihd.net/ugc/579026507999100159/A86656AFF65273FDAAA5A5196752A3BB8AD9D09E/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true width="400"  align="middle" >
+<img src=image/doge.jpg width="400" align="middle" >
 
 #### Bands
 
