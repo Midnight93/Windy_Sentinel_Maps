@@ -91,7 +91,45 @@ The value range of the NDVI is -1 to 1. Negative values of NDVI (values approach
 
 #### Formula
 
-<img src="https://render.githubusercontent.com/render/math?math=(B8-B4)/(B8+B4)" align="middle">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>N</mi>
+  <mi>D</mi>
+  <mi>V</mi>
+  <mi>I</mi>
+  <mo>=</mo>
+  <mi mathvariant="monospace">Index</mi>
+  <mo stretchy="false">(</mo>
+  <mi>N</mi>
+  <mi>I</mi>
+  <mi>R</mi>
+  <mo>,</mo>
+  <mi>R</mi>
+  <mi>E</mi>
+  <mi>D</mi>
+  <mo stretchy="false">)</mo>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mi>N</mi>
+      <mi>I</mi>
+      <mi>R</mi>
+      <mo>&#x2212;</mo>
+      <mi>R</mi>
+      <mi>E</mi>
+      <mi>D</mi>
+    </mrow>
+    <mrow>
+      <mi>N</mi>
+      <mi>I</mi>
+      <mi>R</mi>
+      <mo>+</mo>
+      <mi>R</mi>
+      <mi>E</mi>
+      <mi>D</mi>
+    </mrow>
+  </mfrac>
+  <mo></mo>
+</math>
 
 ### NDWI
 
@@ -108,7 +146,51 @@ The value range of the NDVI is -1 to 1. Negative values of NDVI (values approach
 The NDWI is used to monitor changes related to water content in water bodies. As water bodies strongly absorb light in visible to infrared electromagnetic spectrum, NDWI uses green and near infrared bands to highlight water bodies. It is sensitive to built-up land and can result in over-estimation of water bodies. The index was proposed by McFeeters, 1996.[5]
 
 #### Formula
-<img src="https://render.githubusercontent.com/render/math?math=(B3-B8)/(B3+B8)" align="middle">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>N</mi>
+  <mi>D</mi>
+  <mi>W</mi>
+  <mi>I</mi>
+  <mo>=</mo>
+  <mi mathvariant="monospace">Index</mi>
+  <mo stretchy="false">(</mo>
+  <mi>G</mi>
+  <mi>R</mi>
+  <mi>E</mi>
+  <mi>E</mi>
+  <mi>N</mi>
+  <mo>,</mo>
+  <mi>N</mi>
+  <mi>I</mi>
+  <mi>R</mi>
+  <mo stretchy="false">)</mo>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+    <mi>G</mi>
+    <mi>R</mi>
+    <mi>E</mi>
+    <mi>E</mi>
+    <mi>N</mi>
+    <mo>-</mo>
+    <mi>N</mi>
+    <mi>I</mi>
+    <mi>R</mi>
+    </mrow>
+    <mrow>
+      <mi>G</mi>
+      <mi>R</mi>
+      <mi>E</mi>
+      <mi>E</mi>
+      <mi>N</mi>
+      <mo>+</mo>
+      <mi>N</mi>
+      <mi>I</mi>
+      <mi>R</mi>
+    </mrow>
+  </mfrac>
+  <mo></mo>
+</math>
 
 ## References
 |   |  Name | Link  |
