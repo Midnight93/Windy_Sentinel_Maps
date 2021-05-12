@@ -194,6 +194,39 @@ Authors of the scripts for Sentinel Hub
 * Marko Repše
 * Monja Šebela
 
+Measuring Air Pollution From Space (CO - Carbon monoxide)
+
+![immagine](https://user-images.githubusercontent.com/12511751/117996472-765dbc00-b342-11eb-9f07-e7462121bb9a.png)
+
+![immagine](https://upload.wikimedia.org/wikipedia/commons/2/2e/Carbon-monoxide-3D-balls.png)
+
+Gaseous Air Pollutants of Primary Concern
+Air pollution is a release of various gases into the atmosphere, such as solids and dispersed liquid aerosols which cannot be absorbed in the environment. There are six common air pollutants also known as criteria air pollutants defined by the U.S. Environmental Protection Agency (EPA) which can harm our health and the environment:
+
+* Sulfur dioxide (SO₂)
+* Nitrogen dioxide (NO₂)
+* Carbon monoxide (CO)
+* Ozone (O₃)
+* Particulate matter (PM)
+* Lead
+
+Info Data
+
+![](media/sentinel_co.png)
+
+Mission: Sentinel
+Orbit number (start): 18530
+Processing level: L2
+Processing mode: Near real time
+Processing mode abbreviation: NRTI
+Processor version: 010400
+Product type: L2__CO____
+Product type description: Carbon Monoxide
+Revision number: 01
+Sensing start: 2021-05-11T12:07:57.000Z
+Sensing stop: 2021-05-11T12:13:10.000Z
+
+
 ## References
 |   |  Name | Link  |
 |---|---|---|
