@@ -9,6 +9,35 @@ API_ENDPOINT = "https://api.windy.com/api/point-forecast/v2"
 
 Key = 'Your API KEY'
 ```
+
+## Documentation
+
+Requests are sent to the following endpoint: POST https://api.windy.com/api/point-forecast/v2 with the following body:
+
+```json
+{
+    "lat": 49.809,
+    "lon": 16.787,
+    "model": "desired_model",
+    "parameters": ["desired_parameter_1", "desired_parameter_2", ...],
+    "levels": ["optionally_desired_gh_level_1", ...],
+    "key": "your_API_key"
+}
+```
+For example:
+
+```json
+{
+    "lat": 49.809,
+    "lon": 16.787,
+    "model": "gfs",
+    "parameters": ["wind", "dewpoint", "rh", "pressure"],
+    "levels": ["surface", "800h", "300h"],
+    "key": "abcd123"
+}
+```
+
+
 ## Tree Project
 
 ```bash
