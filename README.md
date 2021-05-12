@@ -194,11 +194,8 @@ Authors of the scripts for Sentinel Hub
 * Marko Repše
 * Monja Šebela
 
-Measuring Air Pollution From Space (CO - Carbon monoxide)
+### Measuring Air Pollution From Space (CO - Carbon monoxide)
 
-![immagine](https://user-images.githubusercontent.com/12511751/117996472-765dbc00-b342-11eb-9f07-e7462121bb9a.png)
-
-![immagine](https://upload.wikimedia.org/wikipedia/commons/2/2e/Carbon-monoxide-3D-balls.png)
 
 Gaseous Air Pollutants of Primary Concern
 Air pollution is a release of various gases into the atmosphere, such as solids and dispersed liquid aerosols which cannot be absorbed in the environment. There are six common air pollutants also known as criteria air pollutants defined by the U.S. Environmental Protection Agency (EPA) which can harm our health and the environment:
