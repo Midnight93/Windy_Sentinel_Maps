@@ -207,21 +207,21 @@ Air pollution is a release of various gases into the atmosphere, such as solids 
 * Particulate matter (PM)
 * Lead
 
-Info Data
+#### Info Data
 
 ![](media/sentinel_co.png)
 
-Mission: Sentinel
-Orbit number (start): 18530
-Processing level: L2
-Processing mode: Near real time
-Processing mode abbreviation: NRTI
-Processor version: 010400
-Product type: L2__CO____
-Product type description: Carbon Monoxide
-Revision number: 01
-Sensing start: 2021-05-11T12:07:57.000Z
-Sensing stop: 2021-05-11T12:13:10.000Z
+* Mission: Sentinel
+* Orbit number (start): 18530
+* Processing level: L2
+* Processing mode: Near real time
+* Processing mode abbreviation: NRTI
+* Processor version: 010400
+* Product type: L2__CO____
+* Product type description: Carbon Monoxide
+* Revision number: 01
+* Sensing start: 2021-05-11T12:07:57.000Z
+* Sensing stop: 2021-05-11T12:13:10.000Z
 
 
 ## References
