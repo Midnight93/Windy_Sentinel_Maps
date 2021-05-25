@@ -9,6 +9,35 @@ API_ENDPOINT = "https://api.windy.com/api/point-forecast/v2"
 
 Key = 'Your API KEY'
 ```
+
+## Documentation
+
+Requests are sent to the following endpoint: POST https://api.windy.com/api/point-forecast/v2 with the following body:
+
+```json
+{
+    "lat": 49.809,
+    "lon": 16.787,
+    "model": "desired_model",
+    "parameters": ["desired_parameter_1", "desired_parameter_2", ...],
+    "levels": ["optionally_desired_gh_level_1", ...],
+    "key": "your_API_key"
+}
+```
+For example:
+
+```json
+{
+    "lat": 49.809,
+    "lon": 16.787,
+    "model": "gfs",
+    "parameters": ["wind", "dewpoint", "rh", "pressure"],
+    "levels": ["surface", "800h", "300h"],
+    "key": "abcd123"
+}
+```
+
+
 ## Tree Project
 
 ```bash
@@ -164,6 +193,36 @@ Authors of the scripts for Sentinel Hub
 * Peter Gabrovšek
 * Marko Repše
 * Monja Šebela
+
+### Measuring Air Pollution From Space (CO - Carbon monoxide)
+
+
+Gaseous Air Pollutants of Primary Concern
+Air pollution is a release of various gases into the atmosphere, such as solids and dispersed liquid aerosols which cannot be absorbed in the environment. There are six common air pollutants also known as criteria air pollutants defined by the U.S. Environmental Protection Agency (EPA) which can harm our health and the environment:
+
+* Sulfur dioxide (SO₂)
+* Nitrogen dioxide (NO₂)
+* Carbon monoxide (CO)
+* Ozone (O₃)
+* Particulate matter (PM)
+* Lead
+
+#### Info Data
+
+![](media/sentinel_co.png)
+
+* Mission: Sentinel
+* Orbit number (start): 18530
+* Processing level: L2
+* Processing mode: Near real time
+* Processing mode abbreviation: NRTI
+* Processor version: 010400
+* Product type: L2__CO____
+* Product type description: Carbon Monoxide
+* Revision number: 01
+* Sensing start: 2021-05-11T12:07:57.000Z
+* Sensing stop: 2021-05-11T12:13:10.000Z
+
 
 ## References
 |   |  Name | Link  |
