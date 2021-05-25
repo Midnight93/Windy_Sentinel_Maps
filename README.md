@@ -50,7 +50,8 @@ For example:
 │   ├── ndvi.png
 │   ├── ndwi_formula.gif
 │   ├── ndwi.png
-│   └── Sentinel-2-band-characteristics.png
+│   ├── Sentinel-2-band-characteristics.png
+│   └── sentinel_co.png
 ├── opencv
 │   ├── Dem_Analysis_OpenCV.ipynb
 │   └── slicer_for_dataset_preparation.py
@@ -66,6 +67,138 @@ For example:
 │   │       └── NDVI.ipynb
 │   └── ndwi
 │       └── ndwi.js
+├── sentinelsat
+│   ├── AUTHORS.rst
+│   ├── CHANGELOG.rst
+│   ├── CONTRIBUTE.rst
+│   ├── docs
+│   │   ├── api_overview.rst
+│   │   ├── api_reference.rst
+│   │   ├── changelog.rst
+│   │   ├── cli.rst
+│   │   ├── common_issues.rst
+│   │   ├── conf.py
+│   │   ├── index.rst
+│   │   ├── install.rst
+│   │   ├── make.bat
+│   │   ├── Makefile
+│   │   └── readthedocs-requirements.txt
+│   ├── LICENSE
+│   ├── MANIFEST.in
+│   ├── README.rst
+│   ├── requirements.txt
+│   ├── sentinelsat
+│   │   ├── exceptions.py
+│   │   ├── __init__.py
+│   │   ├── __main__.py
+│   │   ├── products.py
+│   │   ├── scripts
+│   │   │   ├── cli.py
+│   │   │   └── __init__.py
+│   │   └── sentinel.py
+│   ├── setup.cfg
+│   ├── setup.py
+│   └── tests
+│       ├── conftest.py
+│       ├── custom_serializer.py
+│       ├── fixtures
+│       │   ├── clean_cassettes.sh
+│       │   ├── expected_search_footprints_s1.geojson
+│       │   ├── expected_search_footprints_s2.geojson
+│       │   ├── map_boundaries_lat.geojson
+│       │   ├── map_boundaries_lon.geojson
+│       │   ├── map_download.geojson
+│       │   ├── map.geojson
+│       │   ├── map_nested.geojson
+│       │   ├── map_z.geojson
+│       │   ├── odata_response_full.yml
+│       │   ├── odata_response_short.yml
+│       │   ├── server_maintenance.html
+│       │   └── vcr_cassettes
+│       │       ├── data
+│       │       │   ├── manifest.safe
+│       │       │   ├── map-overlay.kml
+│       │       │   ├── S1A_WV_OCN__2SSH_20150603T092625_20150603T093332_006207_008194_521E.zip
+│       │       │   ├── S1A_WV_OCN__2SSV_20150526T081641_20150526T082418_006090_007E3E_104C.zip
+│       │       │   ├── S1A_WV_OCN__2SSV_20150526T211029_20150526T211737_006097_007E78_134A.zip
+│       │       │   ├── S2A_MSIL2A_20201007T022601_N0214_R046_T49MFN_20201007T064142-ql.jpg
+│       │       │   ├── S2B_MSIL2A_20201007T121649_N0214_R123_T23FQB_20201007T160401-ql.jpg
+│       │       │   └── S2B_MSIL2A_20201007T131939_N0214_R124_T28XEK_20201007T160755-ql.jpg
+│       │       ├── products_fixture.yaml
+│       │       ├── quicklook_products.yaml
+│       │       ├── smallest_archived_products.yaml
+│       │       ├── smallest_online_products.yaml
+│       │       ├── test_api_query_format_escape_spaces.yaml
+│       │       ├── test_area_relation.yaml
+│       │       ├── test_check_existing.yaml
+│       │       ├── test_cli_geometry_alternatives.yaml
+│       │       ├── test_cli_gnss.yaml
+│       │       ├── test_cloud_flag_url.yaml
+│       │       ├── test_count.yaml
+│       │       ├── test_date_arithmetic.yaml
+│       │       ├── test_download_all_lta.yaml
+│       │       ├── test_download_all_one_fail.yaml
+│       │       ├── test_download_all_quicklooks_one_fail.yaml
+│       │       ├── test_download_all_quicklooks.yaml
+│       │       ├── test_download_all.yaml
+│       │       ├── test_download_invalid_id.yaml
+│       │       ├── test_download_many.yaml
+│       │       ├── test_download_product_nodes.yaml
+│       │       ├── test_download_quicklook_invalid_id.yaml
+│       │       ├── test_download_quicklook.yaml
+│       │       ├── test_download_single_quicklook.yaml
+│       │       ├── test_download_single.yaml
+│       │       ├── test_download.yaml
+│       │       ├── test_footprints_cli.yaml
+│       │       ├── test_footprints_s1.yaml
+│       │       ├── test_format_date.yaml
+│       │       ├── test_get_product_info_bad_key.yaml
+│       │       ├── test_get_product_odata_full.yaml
+│       │       ├── test_get_product_odata_short_with_missing_online_key.yaml
+│       │       ├── test_get_product_odata_short.yaml
+│       │       ├── test_get_products_size.yaml
+│       │       ├── test_get_stream.yaml
+│       │       ├── test_info_cli.yaml
+│       │       ├── test_instrument_flag.yaml
+│       │       ├── test_invalid_query.yaml
+│       │       ├── test_is_online.yaml
+│       │       ├── test_large_query.yaml
+│       │       ├── test_limit_flag.yaml
+│       │       ├── test_location_cli.yaml
+│       │       ├── test_name_search_multiple.yaml
+│       │       ├── test_name_search.yaml
+│       │       ├── test_no_auth_netrc.yaml
+│       │       ├── test_order_by_flag.yaml
+│       │       ├── test_order_by.yaml
+│       │       ├── test_placename_to_wkt_invalid.yaml
+│       │       ├── test_placename_to_wkt_valid.yaml
+│       │       ├── test_product_flag.yaml
+│       │       ├── test_product_node_download_single_with_filter.yaml
+│       │       ├── test_product_node_download_single.yaml
+│       │       ├── test_query_by_names.yaml
+│       │       ├── test_quote_symbol_bug.yaml
+│       │       ├── test_repeated_keywords.yaml
+│       │       ├── test_returned_filesize.yaml
+│       │       ├── test_s2_cloudcover.yaml
+│       │       ├── test_sentinel1_flag.yaml
+│       │       ├── test_sentinel2_flag.yaml
+│       │       ├── test_sentinel3_flag.yaml
+│       │       ├── test_SentinelAPI_connection.yaml
+│       │       ├── test_SentinelAPI_wrong_credentials.yaml
+│       │       ├── test_small_query.yaml
+│       │       ├── test_too_long_query.yaml
+│       │       ├── test_unicode_support.yaml
+│       │       └── test_uuid_search.yaml
+│       ├── __init__.py
+│       ├── pytest.ini
+│       ├── test_cli.py
+│       ├── test_docs.py
+│       ├── test_download.py
+│       ├── test_geographic.py
+│       ├── test_misc.py
+│       ├── test_odata.py
+│       ├── test_opensearch.py
+│       └── test_pandas.py
 └── windy
     ├── Maps_html
     │   ├── index.html
@@ -73,6 +206,7 @@ For example:
     └── Web Service
         ├── post_request.py
         └── text.json
+
 ```
 
 ## Usage
